@@ -1,0 +1,27 @@
+# バイナリ
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# テスト
+*.test
+coverage.out
+coverage.html
+
+# ビルド成果物
+/bin/
+/dist/
+/tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
