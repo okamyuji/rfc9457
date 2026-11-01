@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  ci:
+    uses: okamyuji/reusable-workflows/.github/workflows/go-ci.yml@v1
+  security:
+    uses: okamyuji/reusable-workflows/.github/workflows/security-scan.yml@v1
